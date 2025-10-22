@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.6.0" type="incidents">
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Logo Utama&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_splash.xml"
+            line="24"
+            column="13"
+            startOffset="984"
+            endLine="24"
+            endColumn="52"
+            endOffset="1023"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Logo Partner&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_splash.xml"
+            line="40"
+            column="13"
+            startOffset="1572"
+            endLine="40"
+            endColumn="54"
+            endOffset="1613"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Selamat Datang Di&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_splash.xml"
+            line="59"
+            column="9"
+            startOffset="2264"
+            endLine="59"
+            endColumn="41"
+            endOffset="2296"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;SMP BHAKTI INSANI&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/activity_splash.xml"
+            line="71"
+            column="9"
+            startOffset="2775"
+            endLine="71"
+            endColumn="41"
+            endOffset="2807"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;A&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="20"
+            column="13"
+            startOffset="652"
+            endLine="20"
+            endColumn="29"
+            endOffset="668"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;B&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="24"
+            column="13"
+            startOffset="781"
+            endLine="24"
+            endColumn="29"
+            endOffset="797"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;C&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="28"
+            column="13"
+            startOffset="910"
+            endLine="28"
+            endColumn="29"
+            endOffset="926"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;D&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="32"
+            column="13"
+            startOffset="1039"
+            endLine="32"
+            endColumn="29"
+            endOffset="1055"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;E&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="36"
+            column="13"
+            startOffset="1168"
+            endLine="36"
+            endColumn="29"
+            endOffset="1184"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;F&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="40"
+            column="13"
+            startOffset="1297"
+            endLine="40"
+            endColumn="29"
+            endOffset="1313"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;G&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="44"
+            column="13"
+            startOffset="1426"
+            endLine="44"
+            endColumn="29"
+            endOffset="1442"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;H&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="48"
+            column="13"
+            startOffset="1555"
+            endLine="48"
+            endColumn="29"
+            endOffset="1571"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;I&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="52"
+            column="13"
+            startOffset="1684"
+            endLine="52"
+            endColumn="29"
+            endOffset="1700"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;J&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="56"
+            column="13"
+            startOffset="1813"
+            endLine="56"
+            endColumn="29"
+            endOffset="1829"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;K&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="69"
+            column="13"
+            startOffset="2180"
+            endLine="69"
+            endColumn="29"
+            endOffset="2196"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;L&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="73"
+            column="13"
+            startOffset="2309"
+            endLine="73"
+            endColumn="29"
+            endOffset="2325"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;M&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="77"
+            column="13"
+            startOffset="2438"
+            endLine="77"
+            endColumn="29"
+            endOffset="2454"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;N&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="81"
+            column="13"
+            startOffset="2567"
+            endLine="81"
+            endColumn="29"
+            endOffset="2583"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;O&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="85"
+            column="13"
+            startOffset="2696"
+            endLine="85"
+            endColumn="29"
+            endOffset="2712"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;P&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="89"
+            column="13"
+            startOffset="2825"
+            endLine="89"
+            endColumn="29"
+            endOffset="2841"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Q&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="93"
+            column="13"
+            startOffset="2954"
+            endLine="93"
+            endColumn="29"
+            endOffset="2970"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;R&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="97"
+            column="13"
+            startOffset="3083"
+            endLine="97"
+            endColumn="29"
+            endOffset="3099"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;S&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="101"
+            column="13"
+            startOffset="3212"
+            endLine="101"
+            endColumn="29"
+            endOffset="3228"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;T&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="105"
+            column="13"
+            startOffset="3341"
+            endLine="105"
+            endColumn="29"
+            endOffset="3357"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;U&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="118"
+            column="13"
+            startOffset="3708"
+            endLine="118"
+            endColumn="29"
+            endOffset="3724"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;V&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="122"
+            column="13"
+            startOffset="3837"
+            endLine="122"
+            endColumn="29"
+            endOffset="3853"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;W&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="126"
+            column="13"
+            startOffset="3966"
+            endLine="126"
+            endColumn="29"
+            endOffset="3982"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;X&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="130"
+            column="13"
+            startOffset="4095"
+            endLine="130"
+            endColumn="29"
+            endOffset="4111"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Y&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="134"
+            column="13"
+            startOffset="4224"
+            endLine="134"
+            endColumn="29"
+            endOffset="4240"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Z&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="138"
+            column="13"
+            startOffset="4353"
+            endLine="138"
+            endColumn="29"
+            endOffset="4369"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;0&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="142"
+            column="13"
+            startOffset="4482"
+            endLine="142"
+            endColumn="29"
+            endOffset="4498"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;1&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="146"
+            column="13"
+            startOffset="4611"
+            endLine="146"
+            endColumn="29"
+            endOffset="4627"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;2&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="150"
+            column="13"
+            startOffset="4740"
+            endLine="150"
+            endColumn="29"
+            endOffset="4756"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;3&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="154"
+            column="13"
+            startOffset="4869"
+            endLine="154"
+            endColumn="29"
+            endOffset="4885"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;4&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="167"
+            column="13"
+            startOffset="5236"
+            endLine="167"
+            endColumn="29"
+            endOffset="5252"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;5&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="171"
+            column="13"
+            startOffset="5365"
+            endLine="171"
+            endColumn="29"
+            endOffset="5381"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;6&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="175"
+            column="13"
+            startOffset="5494"
+            endLine="175"
+            endColumn="29"
+            endOffset="5510"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;7&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="179"
+            column="13"
+            startOffset="5623"
+            endLine="179"
+            endColumn="29"
+            endOffset="5639"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;8&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="183"
+            column="13"
+            startOffset="5752"
+            endLine="183"
+            endColumn="29"
+            endOffset="5768"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;9&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="187"
+            column="13"
+            startOffset="5881"
+            endLine="187"
+            endColumn="29"
+            endOffset="5897"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;⌫&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="191"
+            column="13"
+            startOffset="6018"
+            endLine="191"
+            endColumn="29"
+            endOffset="6034"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Spasi&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="195"
+            column="13"
+            startOffset="6151"
+            endLine="195"
+            endColumn="33"
+            endOffset="6171"/>
+    </incident>
+
+    <incident
+        id="HardcodedText"
+        severity="warning"
+        message="Hardcoded string &quot;Enter&quot;, should use `@string` resource">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="201"
+            column="13"
+            startOffset="6367"
+            endLine="201"
+            endColumn="33"
+            endOffset="6387"/>
+    </incident>
+
+    <incident
+        id="SetTextI18n"
+        severity="warning"
+        message="String literal in `setText` can not be translated. Use Android resources instead.">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/smpybi/app/MainActivity.kt"
+            line="87"
+            column="21"
+            startOffset="3035"
+            endLine="87"
+            endColumn="27"
+            endOffset="3041"/>
+    </incident>
+
+    <incident
+        id="SetJavaScriptEnabled"
+        severity="warning"
+        message="Using `setJavaScriptEnabled` can introduce XSS vulnerabilities into your application, review carefully">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/smpybi/app/MainActivity.kt"
+            line="165"
+            column="9"
+            startOffset="5678"
+            endLine="165"
+            endColumn="42"
+            endOffset="5711"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="Unnecessary; SDK_INT is always >= 23">
+        <fix-data conditional="true"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/smpybi/app/MainActivity.kt"
+            line="491"
+            column="20"
+            startOffset="19257"
+            endLine="491"
+            endColumn="66"
+            endOffset="19303"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 36"
+            oldString="35"
+            replacement="36"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="13"
+            column="9"
+            startOffset="222"
+            endLine="13"
+            endColumn="23"
+            endOffset="236"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.17.0">
+        <fix-replace
+            description="Change to 1.17.0"
+            family="Update versions"
+            oldString="1.13.1"
+            replacement="1.17.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="62"
+            column="20"
+            startOffset="1460"
+            endLine="62"
+            endColumn="51"
+            endOffset="1491"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.appcompat:appcompat than 1.7.0 is available: 1.7.1">
+        <fix-replace
+            description="Change to 1.7.1"
+            family="Update versions"
+            oldString="1.7.0"
+            replacement="1.7.1"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="63"
+            column="20"
+            startOffset="1512"
+            endLine="63"
+            endColumn="56"
+            endOffset="1548"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.12.0 is available: 1.13.0">
+        <fix-replace
+            description="Change to 1.13.0"
+            family="Update versions"
+            oldString="1.12.0"
+            replacement="1.13.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="64"
+            column="20"
+            startOffset="1569"
+            endLine="64"
+            endColumn="65"
+            endOffset="1614"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.webkit:webkit than 1.10.0 is available: 1.14.0">
+        <fix-replace
+            description="Change to 1.14.0"
+            family="Update versions"
+            oldString="1.10.0"
+            replacement="1.14.0"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="70"
+            column="20"
+            startOffset="1746"
+            endLine="70"
+            endColumn="51"
+            endOffset="1777"/>
+    </incident>
+
+    <incident
+        id="Overdraw"
+        severity="warning"
+        message="Possible overdraw: Root element paints background `#222222` with a theme that also paints a background (inferred theme is `@style/Theme.SMPYBI`)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/layout/custom_keyboard.xml"
+            line="8"
+            column="5"
+            startOffset="309"
+            endLine="8"
+            endColumn="33"
+            endOffset="337"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/logo.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/logo.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/videa.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/videa.png"/>
+    </incident>
+
+    <incident
+        id="IconLocation"
+        severity="warning"
+        message="Found bitmap drawable `res/drawable/logovidea.png` in densityless folder">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/logovidea.png"/>
+    </incident>
+
+    <incident
+        id="IconDipSize"
+        severity="warning"
+        message="The image `ic_launcher.png` varies significantly in its density-independent (dip) size across the various density versions: mipmap-hdpi/ic_launcher.png: 341x341 dp (512x512 px), mipmap-mdpi/ic_launcher.png: 512x512 dp (512x512 px), mipmap-xhdpi/ic_launcher.png: 256x256 dp (512x512 px), mipmap-xxhdpi/ic_launcher.png: 48x48 dp (144x144 px), mipmap-xxxhdpi/ic_launcher.png: 48x48 dp (192x192 px)">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xxxhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xxhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-hdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-mdpi/ic_launcher.png"/>
+    </incident>
+
+    <incident
+        id="IconDuplicates"
+        severity="warning"
+        message="The following unrelated icon files have identical contents: logo.png, ic_launcher.png, ic_launcher.png, ic_launcher.png, ic_launcher.png">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-xhdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-mdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-hdpi/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.png"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/drawable/logo.png"/>
+    </incident>
+
+</incidents>

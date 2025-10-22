@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.smpybi.app-mergeReleaseResources-31:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/raafi/.gradle/caches/8.11.1/transforms/1d3802f20b4e67b2719e8917e1f01607/transformed/appcompat-1.7.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

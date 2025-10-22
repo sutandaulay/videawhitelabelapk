@@ -1,0 +1,10 @@
+#Tue Oct 21 18:29:29 WIB 2025
+base.2=/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
+path.2=13/classes.dex
+base.1=/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+path.1=0/classes.dex
+base.0=/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

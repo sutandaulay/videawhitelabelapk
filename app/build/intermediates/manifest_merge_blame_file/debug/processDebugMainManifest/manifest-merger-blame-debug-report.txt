@@ -1,0 +1,220 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.smpybi.app"
+4    android:versionCode="4"
+5    android:versionName="1.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- Fitur perangkat -->
+12    <uses-feature
+12-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:7:5-85
+13        android:name="android.hardware.camera"
+13-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:7:19-57
+14        android:required="false" />
+14-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:7:58-82
+15    <uses-feature
+15-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:8:5-91
+16        android:name="android.hardware.camera.front"
+16-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:8:19-63
+17        android:required="false" />
+17-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:8:64-88
+18
+19    <!-- Izin dasar -->
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:11:5-67
+20-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:11:22-64
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:12:5-65
+21-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:12:22-62
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:13:5-71
+22-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:13:22-68
+23
+24    <!-- Izin penyimpanan (aman untuk Android 10–14) -->
+25    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+25-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:16:5-76
+25-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:16:22-73
+26    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+26-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:17:5-75
+26-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:17:22-72
+27    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+27-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:18:5-75
+27-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:18:22-72
+28    <uses-permission
+28-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:19:5-107
+29        android:name="android.permission.READ_EXTERNAL_STORAGE"
+29-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:19:22-77
+30        android:maxSdkVersion="32" />
+30-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:19:78-104
+31
+32    <!-- Lainnya -->
+33    <uses-permission android:name="android.permission.MANAGE_DEVICE_ADMINS" />
+33-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:22:5-115
+33-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:22:22-76
+34    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+34-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:23:5-112
+34-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:23:22-73
+35    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+35-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:24:5-77
+35-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:24:22-75
+36    <uses-permission android:name="android.permission.CAMERA" />
+36-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:12:5-65
+36-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:12:22-62
+37    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+37-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:13:5-71
+37-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:13:22-68
+38
+39    <permission
+39-->[androidx.core:core:1.13.1] /home/raafi/.gradle/caches/8.11.1/transforms/198c2e3b42d81a69ea89b60364546259/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+40        android:name="com.smpybi.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+40-->[androidx.core:core:1.13.1] /home/raafi/.gradle/caches/8.11.1/transforms/198c2e3b42d81a69ea89b60364546259/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+41        android:protectionLevel="signature" />
+41-->[androidx.core:core:1.13.1] /home/raafi/.gradle/caches/8.11.1/transforms/198c2e3b42d81a69ea89b60364546259/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+42
+43    <uses-permission android:name="com.smpybi.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+43-->[androidx.core:core:1.13.1] /home/raafi/.gradle/caches/8.11.1/transforms/198c2e3b42d81a69ea89b60364546259/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+43-->[androidx.core:core:1.13.1] /home/raafi/.gradle/caches/8.11.1/transforms/198c2e3b42d81a69ea89b60364546259/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+44
+45    <application
+45-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:28:5-66:19
+46        android:allowBackup="true"
+46-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:29:9-35
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[androidx.core:core:1.13.1] /home/raafi/.gradle/caches/8.11.1/transforms/198c2e3b42d81a69ea89b60364546259/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+48        android:debuggable="true"
+49        android:extractNativeLibs="false"
+50        android:icon="@drawable/logo"
+50-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:30:9-38
+51        android:label="SMP YBI"
+51-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:31:9-32
+52        android:supportsRtl="true"
+52-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:32:9-35
+53        android:testOnly="true"
+54        android:theme="@style/Theme.SMPYBI"
+54-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:33:9-44
+55        android:usesCleartextTraffic="true" >
+55-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:34:9-44
+56
+57        <!-- Splash Screen -->
+58        <activity
+58-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:38:9-46:20
+59            android:name="com.smpybi.app.SplashActivity"
+59-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:39:13-57
+60            android:exported="true"
+60-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:40:13-36
+61            android:theme="@style/Theme.SMPYBI.Splash" >
+61-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:41:13-55
+62            <intent-filter>
+62-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:42:13-45:29
+63                <action android:name="android.intent.action.MAIN" />
+63-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:43:17-69
+63-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:43:25-66
+64
+65                <category android:name="android.intent.category.LAUNCHER" />
+65-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:44:17-77
+65-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:44:27-74
+66            </intent-filter>
+67        </activity>
+68
+69        <!-- WebView utama -->
+70        <activity
+70-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:49:9-54:77
+71            android:name="com.smpybi.app.MainActivity"
+71-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:50:13-55
+72            android:configChanges="orientation|keyboardHidden|screenSize"
+72-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:54:13-74
+73            android:exported="true"
+73-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:51:13-36
+74            android:launchMode="singleTask"
+74-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:52:13-44
+75            android:lockTaskMode="if_whitelisted" />
+75-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:53:13-50
+76
+77        <!-- FileProvider untuk upload/download -->
+78        <provider
+79            android:name="androidx.core.content.FileProvider"
+79-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:58:13-62
+80            android:authorities="com.smpybi.app.provider"
+80-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:59:13-60
+81            android:exported="false"
+81-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:60:13-37
+82            android:grantUriPermissions="true" >
+82-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:61:13-47
+83            <meta-data
+83-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:62:13-64:54
+84                android:name="android.support.FILE_PROVIDER_PATHS"
+84-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:63:17-67
+85                android:resource="@xml/file_paths" />
+85-->/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/src/main/AndroidManifest.xml:64:17-51
+86        </provider>
+87        <provider
+87-->[androidx.emoji2:emoji2:1.3.0] /home/raafi/.gradle/caches/8.11.1/transforms/7409d9eef21b11c95bcb32aa1e457232/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+88            android:name="androidx.startup.InitializationProvider"
+88-->[androidx.emoji2:emoji2:1.3.0] /home/raafi/.gradle/caches/8.11.1/transforms/7409d9eef21b11c95bcb32aa1e457232/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+89            android:authorities="com.smpybi.app.androidx-startup"
+89-->[androidx.emoji2:emoji2:1.3.0] /home/raafi/.gradle/caches/8.11.1/transforms/7409d9eef21b11c95bcb32aa1e457232/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+90            android:exported="false" >
+90-->[androidx.emoji2:emoji2:1.3.0] /home/raafi/.gradle/caches/8.11.1/transforms/7409d9eef21b11c95bcb32aa1e457232/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+91            <meta-data
+91-->[androidx.emoji2:emoji2:1.3.0] /home/raafi/.gradle/caches/8.11.1/transforms/7409d9eef21b11c95bcb32aa1e457232/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+92                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+92-->[androidx.emoji2:emoji2:1.3.0] /home/raafi/.gradle/caches/8.11.1/transforms/7409d9eef21b11c95bcb32aa1e457232/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+93                android:value="androidx.startup" />
+93-->[androidx.emoji2:emoji2:1.3.0] /home/raafi/.gradle/caches/8.11.1/transforms/7409d9eef21b11c95bcb32aa1e457232/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+94            <meta-data
+94-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/raafi/.gradle/caches/8.11.1/transforms/bcb9982a8ae550585437c051c6688938/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+95                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+95-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/raafi/.gradle/caches/8.11.1/transforms/bcb9982a8ae550585437c051c6688938/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+96                android:value="androidx.startup" />
+96-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/raafi/.gradle/caches/8.11.1/transforms/bcb9982a8ae550585437c051c6688938/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+97            <meta-data
+97-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+98                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+98-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+99                android:value="androidx.startup" />
+99-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+100        </provider>
+101
+102        <receiver
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+103            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+104            android:directBootAware="false"
+104-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+105            android:enabled="true"
+105-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+106            android:exported="true"
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+107            android:permission="android.permission.DUMP" >
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+108            <intent-filter>
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+109                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+110            </intent-filter>
+111            <intent-filter>
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+112                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+113            </intent-filter>
+114            <intent-filter>
+114-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+115                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+116            </intent-filter>
+117            <intent-filter>
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+118                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/raafi/.gradle/caches/8.11.1/transforms/0da2c042543ec464ffb56159b0eb2c89/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+119            </intent-filter>
+120        </receiver>
+121    </application>
+122
+123</manifest>
