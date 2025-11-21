@@ -4,14 +4,14 @@
     "type": "BUNDLE",
     "kind": "RegularFile"
   },
-  "applicationId": "com.smpybi.app",
+  "applicationId": "com.idnoffice.app",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "outputFile": "../../../../../../release/app-release.aab"
+      "outputFile": "../../../../../release/app-release.aab"
     }
   ],
   "elementType": "File"

@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="primaryAccent">#2596be</color>
+    <color name="primaryBlue">#2596be</color>
+    <color name="primaryBlueDark">#1f82a5</color>
+    <string name="app_name">IDN OFFICE</string>
     <style name="AppTheme.NoImeToolbar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:imeOptions">flagNoExtractUi</item>
         <item name="android:privateImeOptions">nm</item>
@@ -12,12 +16,23 @@
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:background">?android:attr/selectableItemBackground</item>
     </style>
-    <style name="Theme.SMPYBI" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="LoginTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        
+        <item name="colorPrimary">@color/primaryBlue</item>
+        <item name="colorPrimaryVariant">@color/primaryBlueDark</item>
+        <item name="colorAccent">@color/primaryAccent</item>
+
+        
+        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
+
+    </style>
+    <style name="Theme.IDNOFFICE" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="android:statusBarColor">@android:color/transparent</item>
         <item name="android:navigationBarColor">@android:color/black</item>
         <item name="android:windowFullscreen">true</item>
     </style>
-    <style name="Theme.SMPYBI.Splash" parent="Theme.SMPYBI">
+    <style name="Theme.IDNOFFICE.Splash" parent="Theme.IDNOFFICE">
         <item name="android:windowIsTranslucent">false</item>
         <item name="android:windowBackground">@drawable/splash_background</item>
         <item name="android:windowFullscreen">true</item>

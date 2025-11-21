@@ -4,15 +4,15 @@
     "type": "PACKAGED_MANIFESTS",
     "kind": "Directory"
   },
-  "applicationId": "com.smpybi.app",
+  "applicationId": "com.idnoffice.app",
   "variantName": "release",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 4,
-      "versionName": "1.4",
+      "versionCode": 1,
+      "versionName": "1.1",
       "outputFile": "AndroidManifest.xml"
     }
   ],

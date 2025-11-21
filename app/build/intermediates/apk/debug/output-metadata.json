@@ -4,15 +4,15 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.smpybi.app",
+  "applicationId": "com.idnoffice.app",
   "variantName": "debug",
   "elements": [
     {
       "type": "SINGLE",
       "filters": [],
       "attributes": [],
-      "versionCode": 4,
-      "versionName": "1.4",
+      "versionCode": 1,
+      "versionName": "1.1",
       "outputFile": "app-debug.apk"
     }
   ],

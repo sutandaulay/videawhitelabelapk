@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.smpybi.app-mergeReleaseResources-31:/values-watch-v21/values-watch-v21.xml",
+            "outputFile": "com.idnoffice.app-mergeReleaseResources-32:/values-watch-v21/values-watch-v21.xml",
             "map": [
                 {
-                    "source": "/home/raafi/.gradle/caches/8.11.1/transforms/1d3802f20b4e67b2719e8917e1f01607/transformed/appcompat-1.7.0/res/values-watch-v21/values-watch-v21.xml",
+                    "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\caches\\8.11.1\\transforms\\1d3802f20b4e67b2719e8917e1f01607\\transformed\\appcompat-1.7.0\\res\\values-watch-v21\\values-watch-v21.xml",
                     "from": {
                         "startLines": "2,6,10",
                         "startColumns": "4,4,4",

@@ -1,4 +1,4 @@
-com.smpybi.app
+com.idnoffice.app
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -27,6 +27,7 @@ anim design_bottom_sheet_slide_in
 anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
+anim fade_in
 anim fragment_fast_out_extra_slow_in
 anim linear_indeterminate_line1_head_interpolator
 anim linear_indeterminate_line1_tail_interpolator
@@ -43,6 +44,7 @@ anim m3_side_sheet_exit_to_right
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim slide_up
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -1064,6 +1066,7 @@ attr suffixText
 attr suffixTextAppearance
 attr suffixTextColor
 attr suggestionRowLayout
+attr swipeRefreshLayoutProgressSpinnerBackgroundColor
 attr switchMinWidth
 attr switchPadding
 attr switchStyle
@@ -2014,6 +2017,9 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color primaryAccent
+color primaryBlue
+color primaryBlueDark
 color primary_dark_material_dark
 color primary_dark_material_light
 color primary_material_dark
@@ -2920,6 +2926,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_gradient
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -2943,6 +2950,7 @@ drawable ic_call_decline_low
 drawable ic_clear_black_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
+drawable ic_lock_24
 drawable ic_m3_chip_check
 drawable ic_m3_chip_checked_circle
 drawable ic_m3_chip_close
@@ -2950,6 +2958,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_person_24
+drawable ic_school_24
 drawable ic_search_black_24
 drawable indeterminate_static
 drawable logo
@@ -3026,6 +3036,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable rounded_button
 drawable splash_background
 drawable test_level_drawable
 drawable tooltip_frame_dark
@@ -3144,6 +3155,7 @@ id btnI
 id btnJ
 id btnK
 id btnL
+id btnLogin
 id btnM
 id btnN
 id btnO
@@ -3176,6 +3188,7 @@ id clear_text
 id clip_horizontal
 id clip_vertical
 id clockwise
+id coil_request_manager
 id collapseActionView
 id compress
 id confirm_button
@@ -3273,6 +3286,9 @@ id ignoreRequest
 id image
 id indeterminate
 id info
+id inputPassword
+id inputRegisteredNumber
+id inputTenantCode
 id invisible
 id inward
 id italic
@@ -3290,11 +3306,12 @@ id linear
 id listMode
 id list_item
 id loading_text
+id loginCard
+id logoImage
 id logo_container
 id lottie_layer_name
 id lottie_loading_indicator
 id m3_side_sheet
-id mainLayout
 id marquee
 id masked
 id match_parent
@@ -3391,6 +3408,7 @@ id parent
 id parentPanel
 id parentRelative
 id parent_matrix
+id passwordField
 id password_toggle
 id path
 id pathRelative
@@ -3405,6 +3423,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id registeredField
 id report_drawn
 id restart
 id reverse
@@ -3471,6 +3490,7 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
+id swipeRefreshLayout
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -3485,6 +3505,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id tenantCodeField
 id text
 id text2
 id textEnd
@@ -3652,6 +3673,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_login
 layout activity_main
 layout activity_splash
 layout custom_dialog
@@ -3736,7 +3758,6 @@ layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
 plurals mtrl_badge_content_description
-raw alarm
 raw blocksound
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -3766,6 +3787,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
+string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
@@ -4196,6 +4218,7 @@ style CardView
 style CardView_Dark
 style CardView_Light
 style KeyboardButton
+style LoginTheme
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Animation
 style MaterialAlertDialog_Material3_Body_Text
@@ -4457,6 +4480,8 @@ style Theme_Design_Light
 style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
+style Theme_IDNOFFICE
+style Theme_IDNOFFICE_Splash
 style Theme_Material3_Dark
 style Theme_Material3_Dark_BottomSheetDialog
 style Theme_Material3_Dark_Dialog
@@ -4534,8 +4559,6 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
-style Theme_SMPYBI
-style Theme_SMPYBI_Splash
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark
@@ -5164,6 +5187,7 @@ styleable State android_id constraints
 styleable StateListDrawable android_dither android_visible android_variablePadding android_constantSize android_enterFadeDuration android_exitFadeDuration
 styleable StateListDrawableItem android_drawable
 styleable StateSet defaultState
+styleable SwipeRefreshLayout swipeRefreshLayoutProgressSpinnerBackgroundColor
 styleable SwitchCompat android_textOn android_textOff android_thumb showText splitTrack switchMinWidth switchPadding switchTextAppearance thumbTextPadding thumbTint thumbTintMode track trackTint trackTintMode
 styleable SwitchMaterial useMaterialThemeColors
 styleable TabItem android_icon android_layout android_text

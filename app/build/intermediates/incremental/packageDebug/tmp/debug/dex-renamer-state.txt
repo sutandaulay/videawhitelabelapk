@@ -1,10 +1,16 @@
-#Tue Oct 21 18:29:29 WIB 2025
-base.2=/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
-path.2=13/classes.dex
-base.1=/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
-path.1=0/classes.dex
-base.0=/home/raafi/Documents/videa/SMP_YBI/SMP_YBI_android_project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
-renamed.2=classes3.dex
-renamed.1=classes2.dex
-renamed.0=classes.dex
+#Fri Nov 21 17:55:13 WIB 2025
+base.0=/home/handev/codes/videa/MASTER_android_project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/home/handev/codes/videa/MASTER_android_project/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/home/handev/codes/videa/MASTER_android_project/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex
+base.3=/home/handev/codes/videa/MASTER_android_project/app/build/intermediates/dex/debug/mergeProjectDexDebug/9/classes.dex
+base.4=/home/handev/codes/videa/MASTER_android_project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
 path.0=classes.dex
+path.1=0/classes.dex
+path.2=12/classes.dex
+path.3=9/classes.dex
+path.4=classes2.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
+renamed.3=classes4.dex
+renamed.4=classes5.dex
