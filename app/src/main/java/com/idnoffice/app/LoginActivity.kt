@@ -38,7 +38,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun setupLoginButton() {
         binding.btnLogin.setOnClickListener {
-            val tenantCode = "35F64AC7"
+            val tenantCode = BuildConfig.TENANT_CODE
             val registeredNumber = binding.inputRegisteredNumber.text.toString()
             val fcmToken = FcmTokenHelper.latestToken
             val deviceType = "Android ${Build.BRAND} ${Build.MODEL}"

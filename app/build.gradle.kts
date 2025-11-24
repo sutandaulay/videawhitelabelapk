@@ -1,3 +1,18 @@
+import java.util.Properties
+import java.io.FileInputStream
+
+val localProperties = Properties()
+val propsFile = rootProject.file("env.properties")
+
+if (propsFile.exists()) {
+    localProperties.load(FileInputStream(propsFile))
+}
+
+val APP_URL: String = (localProperties.getProperty("APP_URL"))
+val TENANT_CODE: String = (localProperties.getProperty("TENANT_CODE"))
+
+val FCM_API_URL: String = (localProperties.getProperty("FCM_API_URL"))
+
 plugins {
     id("com.android.application")
     kotlin("android")
@@ -8,6 +23,7 @@ plugins {
 android {
     buildFeatures {
         viewBinding = true
+        buildConfig = true
     }
     namespace = "com.idnoffice.app"
     compileSdk = 35
@@ -21,6 +37,10 @@ android {
 
         // Untuk WebView yang butuh izin internet
         manifestPlaceholders["usesCleartextTraffic"] = "true"
+
+        buildConfigField("String", "APP_URL", "\"$APP_URL\"")
+        buildConfigField("String", "TENANT_CODE", "\"$TENANT_CODE\"")
+        buildConfigField("String", "FCM_API_URL", "\"$FCM_API_URL\"")
     }
 
     buildTypes {

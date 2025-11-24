@@ -3,7 +3,6 @@ package com.idnoffice.app
 import android.Manifest
 import android.annotation.SuppressLint
 import android.app.DownloadManager
-import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.pm.PackageManager
@@ -44,9 +43,9 @@ class MainActivity : AppCompatActivity() {
     private lateinit var swipeRefreshLayout: SwipeRefreshLayout
     private lateinit var webView: WebView
     private lateinit var btnSelesai: Button
+
     // Base URL
-    private val baseUrl = "https://idnoffice.videaclass.com/app"
-    //    private val baseUrl = "https://idnoffice.videaclass.com/app"
+    private val baseUrl = BuildConfig.APP_URL
     private val examPath = listOf("/assesment/r/room", "/assesment/room")
 
     // State

@@ -35,7 +35,7 @@ public class LoginHelper {
                                LoginCallback callback) {
 
         try {
-            // JSON body
+            String FCM_API_URL = BuildConfig.FCM_API_URL;
             JSONObject json = new JSONObject();
             json.put("tenant_code", tenantCode);
             json.put("registered_number", registeredNumber);
@@ -44,7 +44,7 @@ public class LoginHelper {
 
             RequestBody body = RequestBody.create(json.toString(), JSON);
             Request request = new Request.Builder()
-                    .url("https://videaclass.com/api/v1/fcm-token")
+                    .url(FCM_API_URL)
                     .post(body)
                     .build();
 
