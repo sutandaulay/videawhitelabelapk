@@ -1,6 +1,8 @@
 plugins {
     id("com.android.application")
     kotlin("android")
+    // Fcm
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -75,4 +77,8 @@ dependencies {
     implementation("androidx.webkit:webkit:1.10.0")
     // loader image
     implementation("io.coil-kt:coil:2.6.0")
+
+    // Fcm
+    implementation(platform("com.google.firebase:firebase-bom:34.6.0"))
+    implementation ("com.google.firebase:firebase-messaging")
 }

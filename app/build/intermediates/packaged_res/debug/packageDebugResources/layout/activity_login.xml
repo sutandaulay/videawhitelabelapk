@@ -42,27 +42,27 @@
                 android:src="@mipmap/ic_launcher"
                 android:scaleType="centerInside" />
 
-            <!-- KODE LEMBAGA -->
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/tenantCodeField"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="KODE LEMBAGA"
-                app:boxBackgroundMode="outline"
-                app:boxBackgroundColor="#FFFFFF"
-                app:boxStrokeColor="#2596be"
-                app:startIconDrawable="@drawable/ic_school_24"
-                app:startIconTint="#2596be"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+<!--            &lt;!&ndash; KODE LEMBAGA &ndash;&gt;-->
+<!--            <com.google.android.material.textfield.TextInputLayout-->
+<!--                android:id="@+id/tenantCodeField"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:hint="KODE LEMBAGA"-->
+<!--                app:boxBackgroundMode="outline"-->
+<!--                app:boxBackgroundColor="#FFFFFF"-->
+<!--                app:boxStrokeColor="#2596be"-->
+<!--                app:startIconDrawable="@drawable/ic_school_24"-->
+<!--                app:startIconTint="#2596be"-->
+<!--                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
 
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/inputTenantCode"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="16dp"
-                    android:paddingBottom="16dp"
-                    android:inputType="text" />
-            </com.google.android.material.textfield.TextInputLayout>
+<!--                <com.google.android.material.textfield.TextInputEditText-->
+<!--                    android:id="@+id/inputTenantCode"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:paddingTop="16dp"-->
+<!--                    android:paddingBottom="16dp"-->
+<!--                    android:inputType="text" />-->
+<!--            </com.google.android.material.textfield.TextInputLayout>-->
 
             <!-- NISN / NIP -->
             <com.google.android.material.textfield.TextInputLayout
@@ -84,31 +84,7 @@
                     android:layout_height="wrap_content"
                     android:paddingTop="16dp"
                     android:paddingBottom="16dp"
-                    android:inputType="number" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <!-- PASSWORD -->
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/passwordField"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="18dp"
-                android:hint="Password"
-                app:boxBackgroundMode="outline"
-                app:boxStrokeColor="#2596be"
-                app:passwordToggleEnabled="true"
-                app:boxBackgroundColor="#FFFFFF"
-                app:startIconDrawable="@drawable/ic_lock_24"
-                app:startIconTint="#2596be"
-                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
-
-                <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/inputPassword"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingTop="16dp"
-                    android:paddingBottom="16dp"
-                    android:inputType="textPassword" />
+                    android:inputType="text" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- LOGIN BUTTON -->

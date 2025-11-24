@@ -4,6 +4,12 @@
     <color name="primaryBlue">#2596be</color>
     <color name="primaryBlueDark">#1f82a5</color>
     <string name="app_name">IDN OFFICE</string>
+    <string name="gcm_defaultSenderId" translatable="false">92226377583</string>
+    <string name="google_api_key" translatable="false">AIzaSyDy-Me68ICknHT1KAi4nxKcIR58WmXf648</string>
+    <string name="google_app_id" translatable="false">1:92226377583:android:7b1baee94387c7ce517a9a</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDy-Me68ICknHT1KAi4nxKcIR58WmXf648</string>
+    <string name="google_storage_bucket" translatable="false">videa-client-apk.firebasestorage.app</string>
+    <string name="project_id" translatable="false">videa-client-apk</string>
     <style name="AppTheme.NoImeToolbar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <item name="android:imeOptions">flagNoExtractUi</item>
         <item name="android:privateImeOptions">nm</item>

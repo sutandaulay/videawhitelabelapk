@@ -1,22 +1,22 @@
 [
     {
-        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-mergeDebugResources-35:/layout/activity_main.xml",
-        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-38:/layout/activity_main.xml"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-mergeDebugResources-44:/layout/activity_splash.xml",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/layout/activity_splash.xml"
     },
     {
-        "merged": "com.idnoffice.app-mergeDebugResources-35:/layout/activity_login.xml",
-        "source": "com.idnoffice.app-main-38:/layout/activity_login.xml"
+        "merged": "com.idnoffice.app-mergeDebugResources-44:/layout/activity_login.xml",
+        "source": "com.idnoffice.app-main-47:/layout/activity_login.xml"
     },
     {
-        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-mergeDebugResources-35:/layout/activity_splash.xml",
-        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-38:/layout/activity_splash.xml"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-mergeDebugResources-44:/layout/activity_login.xml",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/layout/activity_login.xml"
     },
     {
-        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-mergeDebugResources-35:/layout/activity_login.xml",
-        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-38:/layout/activity_login.xml"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-mergeDebugResources-44:/layout/custom_keyboard.xml",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/layout/custom_keyboard.xml"
     },
     {
-        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-mergeDebugResources-35:/layout/custom_keyboard.xml",
-        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-38:/layout/custom_keyboard.xml"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-mergeDebugResources-44:/layout/activity_main.xml",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/layout/activity_main.xml"
     }
 ]

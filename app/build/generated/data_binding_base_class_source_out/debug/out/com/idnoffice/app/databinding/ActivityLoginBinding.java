@@ -27,13 +27,7 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final MaterialButton btnLogin;
 
   @NonNull
-  public final TextInputEditText inputPassword;
-
-  @NonNull
   public final TextInputEditText inputRegisteredNumber;
-
-  @NonNull
-  public final TextInputEditText inputTenantCode;
 
   @NonNull
   public final CardView loginCard;
@@ -42,29 +36,17 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final ImageView logoImage;
 
   @NonNull
-  public final TextInputLayout passwordField;
-
-  @NonNull
   public final TextInputLayout registeredField;
 
-  @NonNull
-  public final TextInputLayout tenantCodeField;
-
   private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull MaterialButton btnLogin,
-      @NonNull TextInputEditText inputPassword, @NonNull TextInputEditText inputRegisteredNumber,
-      @NonNull TextInputEditText inputTenantCode, @NonNull CardView loginCard,
-      @NonNull ImageView logoImage, @NonNull TextInputLayout passwordField,
-      @NonNull TextInputLayout registeredField, @NonNull TextInputLayout tenantCodeField) {
+      @NonNull TextInputEditText inputRegisteredNumber, @NonNull CardView loginCard,
+      @NonNull ImageView logoImage, @NonNull TextInputLayout registeredField) {
     this.rootView = rootView;
     this.btnLogin = btnLogin;
-    this.inputPassword = inputPassword;
     this.inputRegisteredNumber = inputRegisteredNumber;
-    this.inputTenantCode = inputTenantCode;
     this.loginCard = loginCard;
     this.logoImage = logoImage;
-    this.passwordField = passwordField;
     this.registeredField = registeredField;
-    this.tenantCodeField = tenantCodeField;
   }
 
   @Override
@@ -100,21 +82,9 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.inputPassword;
-      TextInputEditText inputPassword = ViewBindings.findChildViewById(rootView, id);
-      if (inputPassword == null) {
-        break missingId;
-      }
-
       id = R.id.inputRegisteredNumber;
       TextInputEditText inputRegisteredNumber = ViewBindings.findChildViewById(rootView, id);
       if (inputRegisteredNumber == null) {
-        break missingId;
-      }
-
-      id = R.id.inputTenantCode;
-      TextInputEditText inputTenantCode = ViewBindings.findChildViewById(rootView, id);
-      if (inputTenantCode == null) {
         break missingId;
       }
 
@@ -130,27 +100,14 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.passwordField;
-      TextInputLayout passwordField = ViewBindings.findChildViewById(rootView, id);
-      if (passwordField == null) {
-        break missingId;
-      }
-
       id = R.id.registeredField;
       TextInputLayout registeredField = ViewBindings.findChildViewById(rootView, id);
       if (registeredField == null) {
         break missingId;
       }
 
-      id = R.id.tenantCodeField;
-      TextInputLayout tenantCodeField = ViewBindings.findChildViewById(rootView, id);
-      if (tenantCodeField == null) {
-        break missingId;
-      }
-
-      return new ActivityLoginBinding((ConstraintLayout) rootView, btnLogin, inputPassword,
-          inputRegisteredNumber, inputTenantCode, loginCard, logoImage, passwordField,
-          registeredField, tenantCodeField);
+      return new ActivityLoginBinding((ConstraintLayout) rootView, btnLogin, inputRegisteredNumber,
+          loginCard, logoImage, registeredField);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

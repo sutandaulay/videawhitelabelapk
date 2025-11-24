@@ -1,4 +1,4 @@
-#Fri Nov 21 17:55:13 WIB 2025
+#Mon Nov 24 21:47:04 WIB 2025
 base.0=/home/handev/codes/videa/MASTER_android_project/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/home/handev/codes/videa/MASTER_android_project/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
 base.2=/home/handev/codes/videa/MASTER_android_project/app/build/intermediates/dex/debug/mergeProjectDexDebug/12/classes.dex

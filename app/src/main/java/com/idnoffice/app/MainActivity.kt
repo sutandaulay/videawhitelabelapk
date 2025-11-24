@@ -92,7 +92,6 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        askNotificationPermission()
         supportActionBar?.hide()
         setContentView(R.layout.activity_main)
         swipeRefreshLayout = findViewById(R.id.swipeRefreshLayout)
@@ -748,7 +747,8 @@ class MainActivity : AppCompatActivity() {
             Manifest.permission.CAMERA,
             Manifest.permission.RECORD_AUDIO,
             Manifest.permission.ACCESS_FINE_LOCATION,
-            Manifest.permission.ACCESS_COARSE_LOCATION
+            Manifest.permission.ACCESS_COARSE_LOCATION,
+            Manifest.permission.POST_NOTIFICATIONS,
         )
 
         basePermissions.forEach { perm ->
@@ -780,25 +780,6 @@ class MainActivity : AppCompatActivity() {
         if (isPinned) Toast.makeText(this, "Tidak bisa kembali selama ujian", Toast.LENGTH_SHORT).show()
         else if (webView.canGoBack()) webView.goBack()
         else super.onBackPressed()
-    }
-
-    private val requestNotificationPermission =
-        registerForActivityResult(ActivityResultContracts.RequestPermission()) { isGranted ->
-            if (isGranted) {
-                Toast.makeText(this, "Izin notifikasi diberikan", Toast.LENGTH_SHORT).show()
-            } else {
-                Toast.makeText(this, "Izin notifikasi ditolak", Toast.LENGTH_SHORT).show()
-            }
-        }
-
-    private fun askNotificationPermission() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
-            if (checkSelfPermission(android.Manifest.permission.POST_NOTIFICATIONS)
-                != PackageManager.PERMISSION_GRANTED
-            ) {
-                requestNotificationPermission.launch(android.Manifest.permission.POST_NOTIFICATIONS)
-            }
-        }
     }
 }
 
