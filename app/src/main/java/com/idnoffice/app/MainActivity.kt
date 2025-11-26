@@ -45,7 +45,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var btnSelesai: Button
 
     // Base URL
-    private val baseUrl = BuildConfig.APP_URL
+    var baseUrl = BuildConfig.APP_URL
     private val examPath = listOf("/assesment/r/room", "/assesment/room")
 
     // State
@@ -93,8 +93,10 @@ class MainActivity : AppCompatActivity() {
         val actionUrl = intent.getStringExtra("actionUrl")
 
         if (!actionUrl.isNullOrEmpty()) {
-            webView.loadUrl(baseUrl + actionUrl)
+            baseUrl = baseUrl + actionUrl
         }
+
+        webView.loadUrl(baseUrl)
     }
 
     override fun onNewIntent(intent: Intent?) {
