@@ -89,6 +89,20 @@ class MainActivity : AppCompatActivity() {
     // Dialog flag
     private var isDialogOpen = false
 
+    private fun signRoute() {
+        val actionUrl = intent.getStringExtra("actionUrl")
+
+        if (!actionUrl.isNullOrEmpty()) {
+            webView.loadUrl(baseUrl + actionUrl)
+        }
+    }
+
+    override fun onNewIntent(intent: Intent?) {
+        super.onNewIntent(intent)
+        setIntent(intent)
+        signRoute()
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         supportActionBar?.hide()

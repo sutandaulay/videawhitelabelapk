@@ -2,6 +2,8 @@ package com.idnoffice.app;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Intent;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Build;
@@ -18,6 +20,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
         String title = "Notifikasi";
         String body  = "Anda punya pesan baru";
+        String actionUrl = null;
 
         if (!remoteMessage.getData().isEmpty()) {
             if (remoteMessage.getData().get("title") != null)
@@ -25,14 +28,17 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
             if (remoteMessage.getData().get("body") != null)
                 body = remoteMessage.getData().get("body");
+            if (remoteMessage.getData().get("actionUrl") != null) {
+                actionUrl = remoteMessage.getData().get("actionUrl");
+            }
         }
 
-        showNotification(title, body);
+        showNotification(title, body, actionUrl);
     }
 
-    private void showNotification(String title, String body) {
+    private void showNotification(String title, String body, String actionUrl) {
 
-        String channelId = "bade_channel_v4";
+        String channelId = "videaclass_channel";
 
         Uri defaultSound = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
 
@@ -55,6 +61,17 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
             manager.createNotificationChannel(channel);
         }
 
+        Intent intent = new Intent(this, MainActivity.class);
+        intent.putExtra("actionUrl", actionUrl);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+        PendingIntent pendingIntent = PendingIntent.getActivity(
+                this,
+                0,
+                intent,
+                PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_IMMUTABLE
+        );
+
         NotificationCompat.Builder builder =
                 new NotificationCompat.Builder(this, channelId)
                         .setSmallIcon(R.drawable.logo)
@@ -62,6 +79,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                         .setContentText(body)
                         .setAutoCancel(true)
                         .setPriority(NotificationCompat.PRIORITY_HIGH)
+                        .setContentIntent(pendingIntent)
                         .setSound(defaultSound)
                         .setVibrate(new long[]{0, 300, 200, 300});
 
