@@ -16,12 +16,20 @@
         "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/rounded_button.xml"
     },
     {
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_logo_sekolah.png.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/logo_sekolah.png"
+    },
+    {
         "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_splash_background.xml.flat",
         "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/splash_background.xml"
     },
     {
         "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.idnoffice.app-debug-45:/layout_activity_login.xml.flat",
+        "source": "com.idnoffice.app-main-47:/layout/activity_login.xml"
     },
     {
         "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/layout_activity_login.xml.flat",
@@ -60,12 +68,12 @@
         "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/layout_activity_main.xml.flat",
-        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/layout/activity_main.xml"
-    },
-    {
         "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/mipmap-anydpi-v26_ic_launcher.png.flat",
         "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/mipmap-anydpi-v26/ic_launcher.png"
+    },
+    {
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/layout_activity_main.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/layout/activity_main.xml"
     },
     {
         "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_bg_gradient.xml.flat",

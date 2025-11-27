@@ -71,7 +71,7 @@ public class LoginHelper {
                         callback.onLoading(false);
 
                         if (!isSuccess) {
-                            callback.onError("Kode lembaga atau User tidak ditemukan");
+                            callback.onError("NISN/NIP Tidak terdaftar");
                             return;
                         }
 

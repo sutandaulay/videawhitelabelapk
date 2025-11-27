@@ -5,6 +5,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
@@ -24,7 +26,13 @@ public final class ActivityLoginBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final ImageView bigSchoolLogo;
+
+  @NonNull
   public final MaterialButton btnLogin;
+
+  @NonNull
+  public final TextView helpText;
 
   @NonNull
   public final TextInputEditText inputRegisteredNumber;
@@ -33,20 +41,37 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final CardView loginCard;
 
   @NonNull
-  public final ImageView logoImage;
-
-  @NonNull
   public final TextInputLayout registeredField;
 
-  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull MaterialButton btnLogin,
+  @NonNull
+  public final LinearLayout topSection;
+
+  @NonNull
+  public final TextView videaClassLink;
+
+  @NonNull
+  public final TextView welcomeSubText;
+
+  @NonNull
+  public final TextView welcomeText;
+
+  private ActivityLoginBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView bigSchoolLogo,
+      @NonNull MaterialButton btnLogin, @NonNull TextView helpText,
       @NonNull TextInputEditText inputRegisteredNumber, @NonNull CardView loginCard,
-      @NonNull ImageView logoImage, @NonNull TextInputLayout registeredField) {
+      @NonNull TextInputLayout registeredField, @NonNull LinearLayout topSection,
+      @NonNull TextView videaClassLink, @NonNull TextView welcomeSubText,
+      @NonNull TextView welcomeText) {
     this.rootView = rootView;
+    this.bigSchoolLogo = bigSchoolLogo;
     this.btnLogin = btnLogin;
+    this.helpText = helpText;
     this.inputRegisteredNumber = inputRegisteredNumber;
     this.loginCard = loginCard;
-    this.logoImage = logoImage;
     this.registeredField = registeredField;
+    this.topSection = topSection;
+    this.videaClassLink = videaClassLink;
+    this.welcomeSubText = welcomeSubText;
+    this.welcomeText = welcomeText;
   }
 
   @Override
@@ -76,9 +101,21 @@ public final class ActivityLoginBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bigSchoolLogo;
+      ImageView bigSchoolLogo = ViewBindings.findChildViewById(rootView, id);
+      if (bigSchoolLogo == null) {
+        break missingId;
+      }
+
       id = R.id.btnLogin;
       MaterialButton btnLogin = ViewBindings.findChildViewById(rootView, id);
       if (btnLogin == null) {
+        break missingId;
+      }
+
+      id = R.id.helpText;
+      TextView helpText = ViewBindings.findChildViewById(rootView, id);
+      if (helpText == null) {
         break missingId;
       }
 
@@ -94,20 +131,39 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.logoImage;
-      ImageView logoImage = ViewBindings.findChildViewById(rootView, id);
-      if (logoImage == null) {
-        break missingId;
-      }
-
       id = R.id.registeredField;
       TextInputLayout registeredField = ViewBindings.findChildViewById(rootView, id);
       if (registeredField == null) {
         break missingId;
       }
 
-      return new ActivityLoginBinding((ConstraintLayout) rootView, btnLogin, inputRegisteredNumber,
-          loginCard, logoImage, registeredField);
+      id = R.id.topSection;
+      LinearLayout topSection = ViewBindings.findChildViewById(rootView, id);
+      if (topSection == null) {
+        break missingId;
+      }
+
+      id = R.id.videaClassLink;
+      TextView videaClassLink = ViewBindings.findChildViewById(rootView, id);
+      if (videaClassLink == null) {
+        break missingId;
+      }
+
+      id = R.id.welcomeSubText;
+      TextView welcomeSubText = ViewBindings.findChildViewById(rootView, id);
+      if (welcomeSubText == null) {
+        break missingId;
+      }
+
+      id = R.id.welcomeText;
+      TextView welcomeText = ViewBindings.findChildViewById(rootView, id);
+      if (welcomeText == null) {
+        break missingId;
+      }
+
+      return new ActivityLoginBinding((ConstraintLayout) rootView, bigSchoolLogo, btnLogin,
+          helpText, inputRegisteredNumber, loginCard, registeredField, topSection, videaClassLink,
+          welcomeSubText, welcomeText);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

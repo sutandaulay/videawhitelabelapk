@@ -1,9 +1,11 @@
 package com.idnoffice.app
 
 import android.content.Intent
+import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.view.animation.AnimationUtils
+import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import coil.load
@@ -26,8 +28,12 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun setupUI() {
-        binding.logoImage.load("https://smpinovasidalamnegeri.videaclass.com/favicon/300.png") {
-            crossfade(true)
+        findViewById<TextView>(R.id.helpText).setOnClickListener {
+            openUrl("https://wa.me/6285880255326?text=Halo, saya butuh bantuan mengenai aplikasi white-label VideaClass.")
+        }
+
+        findViewById<TextView>(R.id.videaClassLink).setOnClickListener {
+            openUrl("https://videaclass.com")
         }
 
         binding.loginCard.apply {
@@ -35,6 +41,12 @@ class LoginActivity : AppCompatActivity() {
             startAnimation(AnimationUtils.loadAnimation(this@LoginActivity, R.anim.slide_up))
         }
     }
+
+    private fun openUrl(url: String) {
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
+        startActivity(intent)
+    }
+
 
     private fun setupLoginButton() {
         binding.btnLogin.setOnClickListener {
