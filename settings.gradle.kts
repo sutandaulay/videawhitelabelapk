@@ -14,5 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "SMP_YBI"
+rootProject.name = "IDNOFFICE"
 include(":app")
+ 

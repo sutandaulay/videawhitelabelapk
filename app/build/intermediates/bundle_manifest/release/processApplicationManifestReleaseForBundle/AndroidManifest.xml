@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.smpybi.app"
-    android:versionCode="4"
-    android:versionName="1.4" >
+    package="com.idnoffice.app"
+    android:versionCode="1"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="23"
         android:targetSdkVersion="35" />
 
-    <!-- Fitur perangkat -->
+    <!-- 📸 Fitur perangkat -->
     <uses-feature
         android:name="android.hardware.camera"
         android:required="false" />
@@ -16,47 +16,50 @@
         android:name="android.hardware.camera.front"
         android:required="false" />
 
-    <!-- Izin dasar -->
+    <!-- 🌐 Izin dasar -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
-    <!-- Izin penyimpanan (aman untuk Android 10–14) -->
-    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
-    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+    <!-- 🧾 Penyimpanan (aman untuk Android 10–14) -->
     <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
 
-    <!-- Lainnya -->
+    <!-- 📍 Lokasi (jika memang digunakan oleh WebView/presensi) -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- ⚙️ Izin lainnya -->
     <uses-permission android:name="android.permission.MANAGE_DEVICE_ADMINS" />
     <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <permission
-        android:name="com.smpybi.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.idnoffice.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.smpybi.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.idnoffice.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:extractNativeLibs="false"
         android:icon="@drawable/logo"
-        android:label="SMP YBI"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SMPYBI"
+        android:theme="@style/Theme.IDNOFFICE"
         android:usesCleartextTraffic="true" >
 
-        <!-- Splash Screen -->
+        <!-- 🟢 Splash Screen -->
         <activity
-            android:name="com.smpybi.app.SplashActivity"
+            android:name="com.idnoffice.app.SplashActivity"
             android:exported="true"
-            android:theme="@style/Theme.SMPYBI.Splash" >
+            android:theme="@style/Theme.IDNOFFICE.Splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -64,18 +67,18 @@
             </intent-filter>
         </activity>
 
-        <!-- WebView utama -->
+        <!-- 🌐 WebView Utama -->
         <activity
-            android:name="com.smpybi.app.MainActivity"
+            android:name="com.idnoffice.app.MainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="true"
             android:launchMode="singleTask"
             android:lockTaskMode="if_whitelisted" />
 
-        <!-- FileProvider untuk upload/download -->
+        <!-- 📂 FileProvider untuk upload/download -->
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="com.smpybi.app.provider"
+            android:authorities="com.idnoffice.app.provider"
             android:exported="false"
             android:grantUriPermissions="true" >
             <meta-data
@@ -84,7 +87,7 @@
         </provider>
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="com.smpybi.app.androidx-startup"
+            android:authorities="com.idnoffice.app.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"

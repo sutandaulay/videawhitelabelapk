@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.smpybi.app-mergeDebugResources-31:/values-v16/values-v16.xml",
+            "outputFile": "com.idnoffice.app-mergeDebugResources-43:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/raafi/.gradle/caches/8.11.1/transforms/1d3802f20b4e67b2719e8917e1f01607/transformed/appcompat-1.7.0/res/values-v16/values-v16.xml",
+                    "source": "/home/handev/.gradle/caches/8.11.1/transforms/308b53aeda9480f393aab43e2bf7db43/transformed/appcompat-1.7.0/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

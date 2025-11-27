@@ -1,0 +1,4 @@
+com.idnoffice.app.test.app-androidTest-0 /home/handev/codes/videa/MASTER_android_project/app/build/generated/res/resValues/androidTest/debug
+com.idnoffice.app.test.app-mergeDebugAndroidTestResources-1 /home/handev/codes/videa/MASTER_android_project/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.idnoffice.app.test.app-mergeDebugAndroidTestResources-2 /home/handev/codes/videa/MASTER_android_project/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.idnoffice.app.test.app-debugAndroidTest-3 /home/handev/codes/videa/MASTER_android_project/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

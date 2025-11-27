@@ -1,21 +1,46 @@
+import java.util.Properties
+import java.io.FileInputStream
+
+val localProperties = Properties()
+val propsFile = rootProject.file("env.properties")
+
+if (propsFile.exists()) {
+    localProperties.load(FileInputStream(propsFile))
+}
+
+val APP_URL: String = (localProperties.getProperty("APP_URL"))
+val TENANT_CODE: String = (localProperties.getProperty("TENANT_CODE"))
+
+val FCM_API_URL: String = (localProperties.getProperty("FCM_API_URL"))
+
 plugins {
     id("com.android.application")
     kotlin("android")
+    // Fcm
+    id("com.google.gms.google-services")
 }
 
 android {
-    namespace = "com.smpybi.app"
+    buildFeatures {
+        viewBinding = true
+        buildConfig = true
+    }
+    namespace = "com.idnoffice.app"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.smpybi.app"
+        applicationId = "com.idnoffice.app"
         minSdk = 23
         targetSdk = 35
-        versionCode = 4
-        versionName = "1.4"
+        versionCode = 1
+        versionName = "1.1"
 
         // Untuk WebView yang butuh izin internet
         manifestPlaceholders["usesCleartextTraffic"] = "true"
+
+        buildConfigField("String", "APP_URL", "\"$APP_URL\"")
+        buildConfigField("String", "TENANT_CODE", "\"$TENANT_CODE\"")
+        buildConfigField("String", "FCM_API_URL", "\"$FCM_API_URL\"")
     }
 
     buildTypes {
@@ -62,10 +87,18 @@ dependencies {
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.appcompat:appcompat:1.7.0")
     implementation("com.google.android.material:material:1.12.0")
+    implementation("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
 
     // Animasi Lottie
     implementation("com.airbnb.android:lottie:6.4.1")
 
     // (Opsional) WebView compat
+
     implementation("androidx.webkit:webkit:1.10.0")
+    // loader image
+    implementation("io.coil-kt:coil:2.6.0")
+
+    // Fcm
+    implementation(platform("com.google.firebase:firebase-bom:34.6.0"))
+    implementation ("com.google.firebase:firebase-messaging")
 }

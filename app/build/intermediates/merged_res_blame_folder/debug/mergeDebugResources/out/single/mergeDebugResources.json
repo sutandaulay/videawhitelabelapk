@@ -1,66 +1,106 @@
 [
     {
-        "merged": "com.smpybi.app-debug-33:/drawable_splash_background.xml.flat",
-        "source": "com.smpybi.app-main-35:/drawable/splash_background.xml"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/xml_file_paths.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/xml/file_paths.xml"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/drawable_logo.png.flat",
-        "source": "com.smpybi.app-main-35:/drawable/logo.png"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_ic_person_24.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/ic_person_24.xml"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/mipmap-anydpi-v26_ic_launcher.png.flat",
-        "source": "com.smpybi.app-main-35:/mipmap-anydpi-v26/ic_launcher.png"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/raw_hidup_jokowi.mp3.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/raw/hidup_jokowi.mp3"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.smpybi.app-main-35:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_rounded_button.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/rounded_button.xml"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/xml_file_paths.xml.flat",
-        "source": "com.smpybi.app-main-35:/xml/file_paths.xml"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_logo_sekolah.png.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/logo_sekolah.png"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.smpybi.app-main-35:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_splash_background.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/splash_background.xml"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/raw_blocksound.mp3.flat",
-        "source": "com.smpybi.app-main-35:/raw/blocksound.mp3"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/layout_activity_splash.xml.flat",
-        "source": "com.smpybi.app-main-35:/layout/activity_splash.xml"
+        "merged": "com.idnoffice.app-debug-45:/layout_activity_login.xml.flat",
+        "source": "com.idnoffice.app-main-47:/layout/activity_login.xml"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/raw_alarm.mp3.flat",
-        "source": "com.smpybi.app-main-35:/raw/alarm.mp3"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/layout_activity_login.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/layout/activity_login.xml"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/layout_custom_keyboard.xml.flat",
-        "source": "com.smpybi.app-main-35:/layout/custom_keyboard.xml"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/layout_custom_keyboard.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/layout/custom_keyboard.xml"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/drawable_videa.png.flat",
-        "source": "com.smpybi.app-main-35:/drawable/videa.png"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_ic_lock_24.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/ic_lock_24.xml"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/layout_activity_main.xml.flat",
-        "source": "com.smpybi.app-main-35:/layout/activity_main.xml"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.smpybi.app-main-35:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_ic_school_24.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/ic_school_24.xml"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.smpybi.app-main-35:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.smpybi.app-main-35:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/anim_slide_up.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/anim/slide_up.xml"
     },
     {
-        "merged": "com.smpybi.app-debug-33:/drawable_logovidea.png.flat",
-        "source": "com.smpybi.app-main-35:/drawable/logovidea.png"
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/layout_activity_splash.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/mipmap-anydpi-v26_ic_launcher.png.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/mipmap-anydpi-v26/ic_launcher.png"
+    },
+    {
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/layout_activity_main.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_bg_gradient.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/bg_gradient.xml"
+    },
+    {
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_logovidea.png.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/logovidea.png"
+    },
+    {
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_logo.png.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/logo.png"
+    },
+    {
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/drawable_videa.png.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/drawable/videa.png"
+    },
+    {
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/raw_blocksound.mp3.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/raw/blocksound.mp3"
+    },
+    {
+        "merged": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-debug-45:/anim_fade_in.xml.flat",
+        "source": "/home/handev/.gradle/daemon/8.11.1/com.idnoffice.app-main-47:/anim/fade_in.xml"
     }
 ]

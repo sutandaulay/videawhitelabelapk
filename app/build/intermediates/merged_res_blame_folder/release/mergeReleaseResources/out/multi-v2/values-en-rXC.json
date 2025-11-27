@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.smpybi.app-mergeReleaseResources-31:/values-en-rXC/values-en-rXC.xml",
+            "outputFile": "com.idnoffice.app-mergeReleaseResources-32:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "/home/raafi/.gradle/caches/8.11.1/transforms/198c2e3b42d81a69ea89b60364546259/transformed/core-1.13.1/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\caches\\8.11.1\\transforms\\198c2e3b42d81a69ea89b60364546259\\transformed\\core-1.13.1\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/raafi/.gradle/caches/8.11.1/transforms/1d3802f20b4e67b2719e8917e1f01607/transformed/appcompat-1.7.0/res/values-en-rXC/values-en-rXC.xml",
+                    "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\caches\\8.11.1\\transforms\\1d3802f20b4e67b2719e8917e1f01607\\transformed\\appcompat-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
