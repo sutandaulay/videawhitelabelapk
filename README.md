@@ -2,7 +2,6 @@
 
 ## What you get
 - Android Studio project ready to open.
-- Uses WebView to load: https://smpbhaktiinsanibogor.sch.id/app
 - Splash screen with provided logo.
 - Fullscreen mode enabled.
 - Internet permission set.
