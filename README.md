@@ -1,4 +1,4 @@
-# SMP YBI - Android Project (WebView wrapper)
+# Android Project (WebView wrapper)
 
 ## What you get
 - Android Studio project ready to open.
