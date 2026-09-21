@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.idnoffice.app">
+    package="com.videa.app">
 
     <!-- 📸 Fitur perangkat -->
     <uses-feature android:name="android.hardware.camera" android:required="false" />
     <uses-feature android:name="android.hardware.camera.front" android:required="false" />
+    <uses-feature android:name="android.hardware.microphone" android:required="false" />
 
     <!-- 🌐 Izin dasar -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
 
     <!-- 🧾 Penyimpanan (aman untuk Android 10–14) -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" android:maxSdkVersion="32" />
@@ -20,13 +23,20 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
-    <!-- ⚙️ Izin lainnya -->
-    <uses-permission android:name="android.permission.MANAGE_DEVICE_ADMINS" tools:ignore="ProtectedPermissions" />
-    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" tools:ignore="ProtectedPermissions" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-
     <!-- Izin Notifikasi-->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- Fitur Keamanan: Sembunyikan Overlay (Wajib untuk Android 12+) -->
+    <uses-permission android:name="android.permission.HIDE_OVERLAY_WINDOWS" />
+
+    <!-- 🛡️ Filter visibilitas package untuk mendeteksi aplikasi mengambang/overlay -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </queries>
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/logo"
@@ -35,12 +45,22 @@
         android:theme="@style/Theme.IDNOFFICE"
         android:usesCleartextTraffic="true"
         android:requestLegacyExternalStorage="true"
-        tools:targetApi="35">
+        android:resizeableActivity="false"
+        tools:targetApi="36">
+
+        <!-- 🔔 Konfigurasi Default Firebase Messaging -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/logo" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@android:color/holo_blue_dark" />
 
         <!-- 🟢 Splash Screen -->
         <activity
-            android:name="com.idnoffice.app.SplashActivity"
+            android:name=".SplashActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.IDNOFFICE.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -48,13 +68,24 @@
             </intent-filter>
         </activity>
 
-        <!-- 🌐 WebView Utama -->
+        <!--
+            🌐 WebView Utama
+            Catatan: screenOrientation di sini adalah orientasi DEFAULT (portrait) untuk
+            seluruh halaman selain /room. Saat siswa masuk ke /room (exam mode), MainActivity.kt
+            akan mengubah orientasi secara dinamis lewat requestedOrientation
+            (SCREEN_ORIENTATION_FULL_SENSOR) dan mengembalikannya ke PORTRAIT saat keluar.
+            configChanges di bawah ini WAJIB mencakup "orientation" dan "screenSize" agar
+            Activity tidak di-restart saat rotasi terjadi -> ini penting supaya state ujian
+            (exam mode, lock task, security check) tidak ikut ter-reset.
+        -->
         <activity
-            android:name="com.idnoffice.app.MainActivity"
+            android:name=".MainActivity"
             android:exported="true"
             android:launchMode="singleTask"
-            android:lockTaskMode="if_whitelisted"
-            android:configChanges="orientation|keyboardHidden|screenSize" />
+            android:lockTaskMode="normal"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="stateHidden"/>
 
         <!-- 📂 FileProvider untuk upload/download -->
         <provider
@@ -66,8 +97,16 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_paths" />
         </provider>
+
         <!--LOGIN PAGE -->
-        <activity android:name=".LoginActivity" android:theme="@style/LoginTheme" />
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginTheme" />
+
+        <activity
+            android:name=".QrScannerActivity"
+            android:screenOrientation="portrait" />
 
         <service
             android:name=".MyFirebaseMessagingService"
@@ -77,5 +116,19 @@
             </intent-filter>
         </service>
 
+        <service
+            android:name="com.videa.keyboard.ExamKeyboardService"
+            android:label="@string/exam_keyboard_label"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+
     </application>
+
 </manifest>

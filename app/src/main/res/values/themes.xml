@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="LoginTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
-
+    <style name="LoginTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Pakai warna dari colors.xml -->
         <item name="colorPrimary">@color/primaryBlue</item>
-        <item name="colorPrimaryVariant">@color/primaryBlueDark</item>
-        <item name="colorAccent">@color/primaryAccent</item>
-
-        <!-- Gunakan OutlineBox MDC (bukan Material3) -->
-        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>
-
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/primaryAccent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
     </style>
 
 </resources>

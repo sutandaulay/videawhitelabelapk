@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Batang sinyal naik (pendek ke tinggi) -->
+    <path android:fillColor="#F44336" android:pathData="M2,20 L6,20 L6,16 L2,16 Z" />
+    <path android:fillColor="#F44336" android:pathData="M8.5,20 L12.5,20 L12.5,12 L8.5,12 Z" />
+    <path android:fillColor="#F44336" android:pathData="M15,20 L19,20 L19,8 L15,8 Z" />
+    <path android:fillColor="#F44336" android:pathData="M21.5,20 L21.5,4 L17.5,4 L17.5,4.3 L21.2,20 Z" />
+    <!-- Garis silang diagonal menandakan tidak ada sinyal -->
+    <path
+        android:fillColor="#F44336"
+        android:pathData="M3.27,2.7 L1.86,4.11 L20.73,22.98 L22.14,21.57 Z" />
+</vector>

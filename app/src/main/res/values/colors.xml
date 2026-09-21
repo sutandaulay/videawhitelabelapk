@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="primaryBlue">#2596be</color>
-    <color name="primaryBlueDark">#1f82a5</color>
     <color name="primaryAccent">#2596be</color>
+
+    <!-- Modern Colors -->
+
+    <!-- Monochrome & Fluid Colors -->
+    <color name="dark_surface">#0A0A0A</color>
+
+    <!-- Videa Brand Colors -->
+
+    <!-- Gold Premium Colors -->
+    <color name="videa_gold_light">#F6E05E</color>
 </resources>

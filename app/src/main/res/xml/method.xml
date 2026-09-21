@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    File ini WAJIB ditaruh di: res/xml/method.xml
+    Dideklarasikan lewat meta-data di AndroidManifest.xml (lihat manifest_snippet.xml).
+-->
+<input-method xmlns:android="http://schemas.android.com/apk/res/android"
+    android:settingsActivity="">
+    <subtype
+        android:label="@string/exam_keyboard_subtype_label"
+        android:icon="@drawable/logovidea"
+        android:imeSubtypeLocale="id_ID"
+        android:imeSubtypeMode="keyboard" />
+</input-method>

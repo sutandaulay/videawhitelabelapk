@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Main Background Gradient -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <gradient
+                android:angle="135"
+                android:startColor="#F6E05E"
+                android:endColor="#D4AF37"
+                android:type="linear" />
+        </shape>
+    </item>
+    <!-- Accent "Cut" at Bottom Right -->
+    <item android:right="-20dp" android:bottom="-20dp">
+        <rotate android:fromDegrees="45">
+            <shape android:shape="rectangle">
+                <solid android:color="#26000000" />
+            </shape>
+        </rotate>
+    </item>
+    <!-- Accent "Cut" at Top Left -->
+    <item android:left="-30dp" android:top="-30dp">
+        <rotate android:fromDegrees="45">
+            <shape android:shape="rectangle">
+                <solid android:color="#1AFFFFFF" />
+            </shape>
+        </rotate>
+    </item>
+</layer-list>

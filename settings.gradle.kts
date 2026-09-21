@@ -1,3 +1,6 @@
+import java.io.FileInputStream
+import java.util.Properties
+
 pluginManagement {
     repositories {
         gradlePluginPortal()
@@ -14,6 +17,13 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "IDNOFFICE"
+val localProperties = Properties()
+val propsFile = File(rootDir, "env.properties")
+
+if (propsFile.exists()) {
+    localProperties.load(FileInputStream(propsFile))
+}
+
+rootProject.name = localProperties.getProperty("ROOT_NAME") ?: "APP"
 include(":app")
  
