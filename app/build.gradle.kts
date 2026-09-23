@@ -111,6 +111,17 @@ android {
             buildConfigField("String", "AUTH_API_URL", "\"https://smpmawaddah.videaclass.com/api/auth/sign\"")
             resValue("string", "app_name", "SMP MAWADDAH")
         }
+
+        create("mitalqolam") {
+            dimension = "school"
+            applicationId = "com.mitalqolam.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://mitalqolam.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"C4E7D243\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://mitalqolam.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "MIT Al QOLAM")
+        }
     }
 
     buildTypes {

@@ -45,6 +45,25 @@
     },
     {
       "client_info": {
+        "mobilesdk_app_id": "1:92226377583:android:e1625ff176085517517a9a",
+        "android_client_info": {
+          "package_name": "com.mitalqolam.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDy-Me68ICknHT1KAi4nxKcIR58WmXf648"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:92226377583:android:b70cd4c8144b49d0517a9a",
         "android_client_info": {
           "package_name": "com.primago.app"
@@ -67,25 +86,6 @@
         "mobilesdk_app_id": "1:92226377583:android:2158e13223697fea517a9a",
         "android_client_info": {
           "package_name": "com.smasuluh.app"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDy-Me68ICknHT1KAi4nxKcIR58WmXf648"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:92226377583:android:09d37363590460dc517a9a",
-        "android_client_info": {
-          "package_name": "com.smayphb.app"
         }
       },
       "oauth_client": [],
