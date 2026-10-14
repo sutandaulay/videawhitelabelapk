@@ -23,7 +23,7 @@ android {
 
     defaultConfig {
         applicationId = "com.videa.app"
-        minSdk = 23
+        minSdk = 24
         targetSdk = 36
         versionCode = 1
         versionName = "1.1"
@@ -121,6 +121,182 @@ android {
             buildConfigField("String", "TENANT_CODE", "\"C4E7D243\"")
             buildConfigField("String", "AUTH_API_URL", "\"https://mitalqolam.videaclass.com/api/auth/sign\"")
             resValue("string", "app_name", "MIT Al QOLAM")
+        }
+
+        create("smaislamassyafiiyah01") {
+            dimension = "school"
+            applicationId = "com.smaiassyafiiyah01.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://smaislamassyafiiyah01.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"CF56C177\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://smaislamassyafiiyah01.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "SMA ISLAM AS-SYAFIIYAH 01")
+        }
+
+        create("smpiyapkum") {
+            dimension = "school"
+            applicationId = "com.smpiyapkum.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://smpislamyapkum.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"952FD895\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://smpislamyapkum.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "SMPI YAPKUM")
+        }
+
+        create("mtsanz") {
+            dimension = "school"
+            applicationId = "com.mtsanz.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://mtstiqanz.sch.id/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"37B5CE38\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://mtstiqanz.sch.id/api/auth/sign\"")
+            resValue("string", "app_name", "MTs TIQ AN - NIZHOMIYAH")
+        }
+
+        create("maninovasiabdya") {
+            dimension = "school"
+            applicationId = "com.maninovasiabdya.app"
+            versionCode = 5
+            versionName = "1.5"
+            buildConfigField("String", "APP_URL", "\"https://maninovasiabdya.sch.id/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"C212AD3C\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://maninovasiabdya.sch.id/api/auth/sign\"")
+            resValue("string", "app_name", "MAN INOVASI ABDYA")
+        }
+
+        create("pkbmmai") {
+            dimension = "school"
+            applicationId = "com.pkbmmai.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://mediaamalislami.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"61BC9A84\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://mediaamalislami.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "PKBM MAI")
+        }
+
+        create("pkbmprimago") {
+            dimension = "school"
+            applicationId = "com.primago.app"
+            versionCode = 3
+            versionName = "1.3"
+            buildConfigField("String", "APP_URL", "\"https://pkbmprimagoindonesia.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"82FE2AA5\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://pkbmprimagoindonesia.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "PRIMAGO INDONESIA")
+        }
+
+        create("smasuluh") {
+            dimension = "school"
+            applicationId = "com.smasuluh.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://smasuluhjakarta.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"6AC27D9B\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://smasuluhjakarta.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "SMA Suluh Jakarta")
+        }
+
+        create("smpsuluh") {
+            dimension = "school"
+            applicationId = "com.smpsuluh.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://smpsuluhjakarta.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"67E12FC4\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://smpsuluhjakarta.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "SMP Suluh Jakarta")
+        }
+
+        create("smpidaarussalam") {
+            dimension = "school"
+            applicationId = "com.smpds.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://smpidsaljamaliyah.sch.id/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"2797C919\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://smpidsaljamaliyah.sch.id/api/auth/sign\"")
+            resValue("string", "app_name", "SMPI Daarussalam")
+        }
+
+        create("smaymik2jakarta") {
+            dimension = "school"
+            applicationId = "com.smaymik.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://smaymik2jakarta.sch.id/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"34B25BA8\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://smaymik2jakarta.sch.id/api/auth/sign\"")
+            resValue("string", "app_name", "SMA YMIK 2 JAKARTA")
+        }
+
+        create("mtsdarurroja") {
+            dimension = "school"
+            applicationId = "com.mtsdarurroja.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://mtsdarurroja.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"4363DC33\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://mtsdarurroja.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "MTS DARUR ROJA")
+        }
+
+        create("smkdarurroja") {
+            dimension = "school"
+            applicationId = "com.smkdarurroja.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://smksdarurroja.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"3476F223\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://smksdarurroja.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "SMKS DARUR ROJA")
+        }
+
+        create("smkperintis1") {
+            dimension = "school"
+            applicationId = "com.smkperintis1.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://smkperintis1.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"3F944564\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://smkperintis1.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "SMK PERINTIS 1")
+        }
+
+        create("smkyppddepok") {
+            dimension = "school"
+            applicationId = "com.smkyppd.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://smkyppddepok.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"3B27D4A2\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://smkyppddepok.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "SMK YPPD DEPOK")
+        }
+
+        create("smkpolimedik") {
+            dimension = "school"
+            applicationId = "com.smkpolimedik.app"
+            versionCode = 2
+            versionName = "1.2"
+            buildConfigField("String", "APP_URL", "\"https://smkpolimedik.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"D52EAA3E\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://smkpolimedik.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "SMK POLIMEDIK")
+        }
+
+        create("smkpercik") {
+            dimension = "school"
+            applicationId = "com.smkpercik.app"
+            versionCode = 6
+            versionName = "1.6"
+            buildConfigField("String", "APP_URL", "\"https://smkperguruancikinijkt.videaclass.com/app\"")
+            buildConfigField("String", "TENANT_CODE", "\"A93250E1\"")
+            buildConfigField("String", "AUTH_API_URL", "\"https://smkperguruancikinijkt.videaclass.com/api/auth/sign\"")
+            resValue("string", "app_name", "SMK PERCIK")
         }
     }
 
